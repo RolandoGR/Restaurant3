@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap");
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+p {
+  font-family: "Montserrat", Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Montserrat", Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.headerImg {
+  display: flex;
+  height: 500px;
+  width: auto;
+}
+
+.navBar {
+  display: flex;
+  justify-content: right;
+  padding: 0px 15px;
+  height: 5vh;
+  border-style: solid;
+  border-color: black;
+}
+
+a {
+  display: flex;
+  padding: 0px 15px;
+}
+
+a:link {
+  color: rgb(0, 92, 0);
+  font-family: "Montserrat", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 92, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(2, 138, 138);
+}
+
+.btn {
+  flex-direction: column;
+  font-family: "Montserrat", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  font-weight: 600;
+  background-color: wheat;
+  align-self: center;
+  border-style: solid;
+  border-width: thin;
+  margin: 0px 5px;
+}
