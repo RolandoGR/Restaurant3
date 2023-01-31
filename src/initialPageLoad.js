@@ -12,7 +12,7 @@ export function initialPageLoad() {
   content.appendChild(para1);
 
   const imgHead = document.createElement("img");
-  imgHead.setAttribute("src", "../src/img/pexels-photo-2377164.jpeg");
+  imgHead.setAttribute("src", "./img/pexels-photo-2377164.jpeg");
   imgHead.classList.add("headerImg");
   content.appendChild(imgHead);
 }
