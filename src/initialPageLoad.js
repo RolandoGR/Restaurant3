@@ -8,7 +8,7 @@ export function initialPageLoad() {
   content.appendChild(initHeader);
 
   const para1 = document.createElement("p");
-  para1.textContent += `Salud a la mesa`;
+  para1.textContent += `¡Salud a la mesa!`;
   content.appendChild(para1);
 
   const imgHead = document.createElement("img");
