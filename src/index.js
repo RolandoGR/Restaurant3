@@ -2,6 +2,7 @@ import { initialPageLoad } from "./initialPageLoad";
 import { aboutUs } from "./aboutUs";
 import { menu } from "./menu";
 import { locations } from "./locations";
+import "./style.css";
 
 const navBar = document.createElement("div");
 const navLinks = ["Home", "About Us", "Menu", "Locations"];
